@@ -3,7 +3,7 @@
     float:none;
     margin:0 auto;
     display: block;
-    text-align: center;;
+    text-align: center;
 }
 
 .navbar-nav {
@@ -11,24 +11,56 @@
     margin:0 auto;
     display: block;
     text-align: center;
+    /*border: 1px solid #000;*/
+    height: 65px;
 }
 
 .navbar-nav > li {
     display: inline-block;
     float:none;
+    height: 65px;
+    /*border: 1px solid #000;*/
+
 }
 
-.jumbotron img{
-  height: 400px;
-  width: 100%;
+.nav-text{
+  color:#000;
 }
-
 .navbar-brand{
-  height: 75px;
-  width: 300px;
+    /*border: 1px solid #000;*/
+    height: 65px;
+    width: 300px;
+;
 }
 
 #nav-logo{
-  height: 65px;
-  width: 300px;
+    height: 65px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.jumbotron {
+    height: 500px;
+    width: 1115px;
+    /*float:none;*/
+    margin:0px auto;
+    /*display: block;*/
+    text-align: center
+    border: 2px solid red;
+}
+
+.jumbotron > img{
+    height: 500px;
+    width: 1115px;
+    margin-bottom: 100px;
+}
+
+#page-title{
+  text-align: center;
+  color: #fff;
+  margin-top: -400px;
+  /*border: 2px solid #000;*/
+}
+
+.content{
+    margin-top: 300px;
 }
