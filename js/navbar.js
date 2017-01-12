@@ -1,9 +1,8 @@
-$(document).ready(function(){
-  document.onload = function(){
-    $('.navbar-brand').remove("navbar-brand");
-  }
-
-});
+// $('div').each(function(){
+//     if($(this).attr('id') == 'nav-logo') {
+//         $(this).hide();
+//         }
+//       });
 
 document.onscroll = function() {
     if( $(document).scrollTop() > $('header').height() ) {
